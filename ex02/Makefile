@@ -4,7 +4,7 @@ CC = g++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98 #-fsanitize=address
 
-FILES = main.cpp identify.cpp base.cpp
+FILES = main.cpp identify.cpp Base.cpp
 
 objects = $(FILES:.cpp=.o)
 
