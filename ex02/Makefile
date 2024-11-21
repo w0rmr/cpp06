@@ -1,10 +1,10 @@
-Target = Converter
+Target = identifyer
 
 CC = g++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98 #-fsanitize=address
 
-FILES = main.cpp ScalarConverter.cpp
+FILES = main.cpp identify.cpp base.cpp
 
 objects = $(FILES:.cpp=.o)
 

@@ -1,10 +1,10 @@
-Target = Converter
+Target = serializer
 
 CC = g++
 
-FLAGS = -Wall -Wextra -Werror -std=c++98 #-fsanitize=address
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
-FILES = main.cpp ScalarConverter.cpp
+FILES = main.cpp Serializer.cpp Data.cpp
 
 objects = $(FILES:.cpp=.o)
 
